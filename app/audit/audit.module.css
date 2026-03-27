@@ -1,0 +1,138 @@
+.main {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 40px 40px 80px;
+}
+
+.head {
+  margin-bottom: 40px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid var(--border);
+}
+
+.title {
+  font-family: var(--serif);
+  font-size: 32px;
+  letter-spacing: -1px;
+  margin-bottom: 6px;
+}
+
+.sub {
+  font-size: 13px;
+  color: var(--text-3);
+  font-family: var(--mono);
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+
+.cardHead {
+  padding: 16px 24px;
+  border-bottom: 1px solid var(--border);
+}
+
+.cardTitle {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.cardBody {
+  padding: 24px;
+}
+
+/* EXPLAIN GRID */
+.explainGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.explainItem {}
+
+.explainNum {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--text-4);
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+}
+
+.explainTitle {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: var(--text);
+}
+
+.explainDesc {
+  font-size: 13px;
+  color: var(--text-2);
+  line-height: 1.65;
+  font-weight: 300;
+}
+
+/* CODE BLOCK */
+.code {
+  font-family: var(--mono);
+  font-size: 12px;
+  line-height: 1.8;
+  color: var(--text-2);
+  background: var(--bg-subtle);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 20px;
+  white-space: pre;
+  overflow-x: auto;
+}
+
+/* REQUIREMENTS */
+.reqRow {
+  display: flex;
+  gap: 14px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--border);
+  align-items: flex-start;
+}
+
+.reqRow:last-child {
+  border-bottom: none;
+}
+
+.reqIcon {
+  width: 24px;
+  height: 24px;
+  background: var(--green-bg);
+  color: var(--green-2);
+  border: 1px solid var(--green-border);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.reqTitle {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text);
+  margin-bottom: 3px;
+}
+
+.reqHow {
+  font-size: 12px;
+  color: var(--text-2);
+  line-height: 1.55;
+}
