@@ -1,161 +1,117 @@
-# MediFlow AI
+# MediFlow AI 🚀
 
-**Autonomous Healthcare Operations Agent** — ET GenAI Hackathon 2026, Problem Statement 5
-
-MediFlow AI replaces 6 hours of manual medical coding, compliance checking, and prior authorization with a 5-agent autonomous pipeline — ICD-10 compliant, fully auditable, end-to-end in 28 seconds.
+🌐 Live Demo: https://medi-flow-ai-roan.vercel.app/
 
 ---
 
-## The Problem
+## 🧠 Autonomous Healthcare Operations Agent
 
-Indian hospitals process ~12,000 insurance claims per day. Each claim requires:
+MediFlow AI is a next-generation, AI-powered healthcare operations platform designed to automate medical coding, compliance validation, prior authorization, claims adjudication, and audit logging — all within seconds.
 
-1. Manual ICD-10/CPT medical coding (23% error rate)
-2. Policy compliance checking across IRDAI, NHA, TPA rules
-3. Prior authorization letter drafting (7 day avg wait)
-4. Claims adjudication and routing
-5. Audit documentation for regulatory compliance
-
-**Cost of this broken process: ₹47,000 Cr annually in claim errors alone.**
+Built for ET GenAI Hackathon 2026 (Problem Statement 5), this system replaces hours of manual work with a fully autonomous, auditable, multi-agent pipeline.
 
 ---
 
-## The Solution: 5-Agent Pipeline
+## ⚡ Key Highlights
 
-```
-Clinical Note (text)
-  → Agent 1: Clinical NLP       → ICD-10 + CPT codes (JSON)
-  → Agent 2: Compliance Guardian → Policy check + citations (JSON)
-  → Agent 3: Prior Auth          → Auth letter + approval probability
-  → Agent 4: Claims Adjudication → APPROVE / REVIEW / REJECT
-  → Agent 5: Audit Logger        → Immutable SHA-256 sealed log
-```
-
-Each agent owns exactly one domain. All decisions are auditable. No silent failures.
+- ⚡ End-to-end automation in ~28 seconds
+- 🧠 Multi-agent architecture (5 specialized agents)
+- 📊 ICD-10 & CPT compliant coding
+- 🛡️ IRDAI, NHA, TPA compliance validation
+- 🔐 Immutable SHA-256 audit logging
+- ☁️ Deployed on Vercel (serverless backend)
 
 ---
 
-## Tech Stack
+## 🏥 The Problem
 
-| Layer       | Technology                          |
-|-------------|-------------------------------------|
-| Frontend    | Next.js 14 + TypeScript + CSS Modules |
-| Agent Layer | Next.js API Routes (sequential)     |
-| AI Brain    | Claude API (claude-sonnet-4-5)      |
-| Database    | Supabase (PostgreSQL + pgvector)    |
-| Deploy      | Vercel (frontend) + Render (optional heavy jobs) |
+Indian hospitals process thousands of insurance claims daily, involving:
 
----
+- Manual coding (high error rate)
+- Complex compliance checks
+- Delayed prior authorizations
+- Inefficient claim adjudication
+- Lack of audit transparency
 
-## Project Structure
-
-```
-mediflow-ai/
-├── app/
-│   ├── layout.tsx                  # Root layout
-│   ├── globals.css                 # Design tokens + global styles
-│   ├── page.tsx                    # Overview / landing page
-│   ├── page.module.css
-│   ├── analyze/
-│   │   ├── page.tsx                # Live agent demo (client component)
-│   │   └── analyze.module.css
-│   ├── audit/
-│   │   ├── page.tsx                # Audit system explanation
-│   │   └── audit.module.css
-│   ├── architecture/
-│   │   ├── page.tsx                # System architecture
-│   │   └── architecture.module.css
-│   └── api/
-│       └── agents/
-│           └── route.ts            # Agent pipeline API endpoint
-├── components/
-│   ├── Navbar.tsx                  # Sticky navigation
-│   ├── Navbar.module.css
-│   ├── AgentStep.tsx               # Individual agent step UI
-│   ├── AgentStep.module.css
-│   └── Icons.tsx                  # All SVG icons (no emojis)
-├── lib/
-│   └── data.ts                    # Types, sample data, mock responses
-├── public/                        # Static assets
-├── .env.local                     # API keys (not committed)
-├── .gitignore
-├── next.config.js
-├── package.json
-└── tsconfig.json
-```
+💸 Result: Massive financial loss and inefficiency.
 
 ---
 
-## Running Locally
+## 💡 The Solution
 
-### 1. Clone and install
+MediFlow AI introduces a **5-Agent Autonomous Pipeline**:
+
+1. Clinical NLP Agent → Extracts ICD-10 & CPT codes
+2. Compliance Guardian → Validates against policies
+3. Prior Authorization Agent → Generates approval docs
+4. Claims Adjudicator → Decision engine
+5. Audit Logger → Immutable audit trail
+
+---
+
+## 🏗️ Architecture
+
+Frontend → Next.js App Router  
+Backend → Serverless API Routes  
+AI → Claude API  
+Database → Supabase  
+Deployment → Vercel  
+
+---
+
+## 📁 Project Structure
+
+- app/ → Pages & API routes  
+- components/ → UI components  
+- lib/ → Data & types  
+- public/ → Static assets  
+
+---
+
+## ⚙️ Setup
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/mediflow-ai.git
+git clone https://github.com/Nitanshu715/MediFlow-AI
 cd mediflow-ai
 npm install
-```
-
-### 2. Set up environment variables
-
-```bash
-cp .env.local.example .env.local
-```
-
-Edit `.env.local`:
-```
-ANTHROPIC_API_KEY=your_key_here
-```
-
-> **No key?** The app works fully with mock data. Skip this step and the pipeline runs with realistic simulated outputs.
-
-### 3. Run development server
-
-```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000)
-
 ---
 
-## Deploy to Vercel
+## 🔑 Environment Variables
 
-```bash
-npm install -g vercel
-vercel
+Create `.env.local`:
+
+```
+ANTHROPIC_API_KEY=your_key
 ```
 
-Add `ANTHROPIC_API_KEY` in Vercel dashboard → Settings → Environment Variables.
+---
+
+## 🚀 Deployment
+
+Deployed via Vercel with serverless backend.
 
 ---
 
-## Impact Model
+## 📊 Impact
 
-| Metric | Value |
-|--------|-------|
-| Manual time per claim | 6 hours |
-| MediFlow processing time | 28 seconds |
-| Coding error reduction | 23% → 3.1% (−87%) |
-| Prior auth time reduction | 7 days → <1 min (99.9% faster) |
-| Saving per hospital per year | ₹2.4 Cr |
-| National scale potential | ₹28,800 Cr/year |
+- ⏱️ 6 hours → 28 seconds
+- 📉 Error rate drastically reduced
+- ⚡ Faster approvals
+- 💰 Huge cost savings
 
 ---
 
-## PS-5 Alignment
+## 👨‍💻 Author
 
-| Requirement | Implementation |
-|-------------|----------------|
-| Domain expertise depth | ICD-10, CPT, IRDAI, NHA, TPA knowledge in every agent |
-| Compliance guardrail enforcement | Hard blocks prevent non-compliant claims from passing |
-| Edge case handling | CKD dosing warnings, denial-risk prediction, alt code paths |
-| Full task completion | End-to-end: note → codes → compliance → auth → decision |
-| Auditability | SHA-256 sealed, immutable log, full reasoning per agent |
+Nitanshu Tak  
+BTech CSE (Cloud Computing)
 
 ---
 
-## Team
+## 🌟 Final Note
 
-**Nitanshu Tak** — UPES, Dehradun  
-ET GenAI Hackathon 2026
+This project represents a scalable AI SaaS prototype combining cloud, AI, and healthcare automation into a production-ready system.
+
