@@ -58,7 +58,6 @@ MediFlow AI isn't just a chatbot; it's a specialized orchestration engine design
 - [Tech Stack](#-tech-stack)
 - [Impact Model](#-impact-model)
 - [Roadmap](#-roadmap)
-- [Why This Project Requires Advanced AI Tooling](#-why-this-project-requires-advanced-ai-tooling)
   
 ---
 
@@ -237,21 +236,6 @@ Deployment    → Vercel
 - [ ] Real-time streaming agents
 - [ ] EHR integrations
 - [ ] Production compliance layer
-
----
-
-## 🤖 Why This Project Requires Advanced AI Tooling
-
-MediFlow-AI involves complex multi-agent orchestration, distributed decision pipelines, and compliance-aware reasoning across multiple stages.
-
-Development workflows include:
-- Refactoring multi-file agent pipelines  
-- Debugging inter-agent communication flows  
-- Iterating on compliance logic and decision systems  
-- Generating and maintaining structured audit logs  
-- Designing scalable backend infrastructure  
-
-These tasks require sustained context, deep reasoning, and iterative refinement across large codebases — making advanced AI-assisted development tools essential.
 
 ---
 
