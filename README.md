@@ -1,3 +1,16 @@
+<div align="center">
+
+# 🏥 **MediFlow AI**
+### *The Next Generation of Intelligent Clinical Workflow Automation*
+<p align="center">
+  <a href="https://medi-flow-ai-roan.vercel.app/">
+    <img src="https://img.shields.io/badge/Live%20Demo-MediFlow%20AI-brightgreen?style=for-the-badge&logo=vercel" />
+  </a>
+</p>
+
+[![Status](https://img.shields.io/badge/Status-Beta-blueviolet?style=for-the-badge)](https://github.com/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](https://github.com/)
+[![Framework](https://img.shields.io/badge/Agentic-Multi--Agent-orange?style=for-the-badge)](https://github.com/)
 
 <div align="center">
 
@@ -8,21 +21,6 @@
 <img src="https://img.shields.io/badge/Vercel-Deployed-black?style=for-the-badge&logo=vercel"/>
 
 <br/><br/>
-
-<p align="center">
-  <a href="https://medi-flow-ai-roan.vercel.app/">
-    <img src="https://img.shields.io/badge/Live%20Demo-MediFlow%20AI-brightgreen?style=for-the-badge&logo=vercel" />
-  </a>
-</p>
-
-<div align="center">
-
-# 🏥 **MediFlow AI**
-### *The Next Generation of Intelligent Clinical Workflow Automation*
-
-[![Status](https://img.shields.io/badge/Status-Beta-blueviolet?style=for-the-badge)](https://github.com/)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](https://github.com/)
-[![Framework](https://img.shields.io/badge/Agentic-Multi--Agent-orange?style=for-the-badge)](https://github.com/)
 
 ---
 
