@@ -48,7 +48,8 @@
 - [Tech Stack](#-tech-stack)
 - [Impact Model](#-impact-model)
 - [Roadmap](#-roadmap)
-- [Why This Project Requires Advanced AI Tooling](#why-this-project-requires-advanced-ai-tooling)
+- [Why This Project Requires Advanced AI Tooling](#-why-this-project-requires-advanced-ai-tooling)
+- 
 ---
 
 ## 🧠 What Is This?
