@@ -22,21 +22,22 @@
 
 [![Status](https://img.shields.io/badge/Status-Beta-blueviolet?style=for-the-badge)](https://github.com/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](https://github.com/)
+[![Framework](https://img.shields.io/badge/Agentic-Multi--Agent-orange?style=for-the-badge)](https://github.com/)
 
 ---
-**Predictive Diagnostics** • **Seamless Integration** • **Real-time Analytics**
+
+### **Autonomous Healthcare Operations Agent with Compliance Guardrails**
+*Encodes clinical workflows → Executes via multi-agent system → Produces auditable, compliant insurance decisions in seconds*
+
+**[Predictive Diagnostics]** • **[Seamless Integration]** • **[Real-time Analytics]**
+
+---
 
 </div>
 
-### *Autonomous Healthcare Operations Agent with Compliance Guardrails*
+## 📖 Overview
+MediFlow AI isn't just a chatbot; it's a specialized orchestration engine designed to handle the high-stakes logic of medical insurance and clinical workflows...
 
-**Encodes clinical workflows → Executes via multi-agent system → Produces auditable, compliant insurance decisions in seconds**
-
-<br/>
-
-> **By: Nitanshu Tak**
-
-<br/>
 
 ![Status](https://img.shields.io/badge/Status-Production--Ready-22c55e)
 ![Agents](https://img.shields.io/badge/Agents-5-blue)
@@ -255,6 +256,12 @@ Development workflows include:
 These tasks require sustained context, deep reasoning, and iterative refinement across large codebases — making advanced AI-assisted development tools essential.
 
 ---
+
+<br/>
+
+> **By: Nitanshu Tak**
+
+<br/>
 
 <div align="center">
 
