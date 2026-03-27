@@ -15,7 +15,18 @@
   </a>
 </p>
 
-### 🏥 MediFlow AI
+<div align="center">
+
+# 🏥 **MediFlow AI**
+### *The Next Generation of Intelligent Clinical Workflow Automation*
+
+[![Status](https://img.shields.io/badge/Status-Beta-blueviolet?style=for-the-badge)](https://github.com/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](https://github.com/)
+
+---
+**Predictive Diagnostics** • **Seamless Integration** • **Real-time Analytics**
+
+</div>
 
 ### *Autonomous Healthcare Operations Agent with Compliance Guardrails*
 
@@ -49,7 +60,7 @@
 - [Impact Model](#-impact-model)
 - [Roadmap](#-roadmap)
 - [Why This Project Requires Advanced AI Tooling](#-why-this-project-requires-advanced-ai-tooling)
-- 
+  
 ---
 
 ## 🧠 What Is This?
