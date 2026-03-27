@@ -56,6 +56,9 @@
 Healthcare insurance workflows are **manual, slow, and error-prone**.
 
 Doctors write clinical notes → humans manually convert them into billing codes → compliance teams validate policies → prior authorization takes days → claims get rejected → hospitals lose revenue.
+MediFlow-AI is an actively evolving multi-agent system designed to automate end-to-end healthcare claims processing with compliance guarantees, auditability, and scalable deployment architecture.
+
+This project is being developed as a foundation for real-world healthcare workflow automation systems and production-grade AI infrastructure.
 
 **MediFlow AI replaces this entire pipeline with a 5-agent autonomous system.**
 
