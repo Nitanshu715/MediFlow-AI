@@ -1,6 +1,9 @@
 <div align="center">
 
-# 🏥 **MediFlow AI**
+<p align="center">
+  <img src="MediFlow-AI-Logo.png" alt="MediFlow-AI Logo" width="200">
+</p>
+
 ### *The Next Generation of Intelligent Clinical Workflow Automation*
 <p align="center">
   <a href="https://medi-flow-ai-roan.vercel.app/">
