@@ -63,6 +63,7 @@ MediFlow AI isn't just a chatbot; it's a specialized orchestration engine design
 - [Tech Stack](#-tech-stack)
 - [Impact Model](#-impact-model)
 - [Roadmap](#-roadmap)
+- [Resources & Assets](#-resources--assets)
 
 ---
 
