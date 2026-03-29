@@ -54,6 +54,8 @@ MediFlow AI isn't just a chatbot; it's a specialized orchestration engine design
 - [The Problem](#-the-problem)
 - [The Solution: Agent Pipeline](#-the-solution-agent-pipeline)
 - [Architecture](#-architecture)
+- [Demo-Video](#-demo-video)
+- [Certificates](#-certificate)
 - [Quick Start](#-quick-start)
 - [Project Structure](#-project-structure)
 - [Agent Design](#-agent-design)
@@ -61,7 +63,7 @@ MediFlow AI isn't just a chatbot; it's a specialized orchestration engine design
 - [Tech Stack](#-tech-stack)
 - [Impact Model](#-impact-model)
 - [Roadmap](#-roadmap)
-  
+
 ---
 
 ## 🧠 What Is This?
@@ -126,6 +128,21 @@ Response → UI Rendering
 ```
 
 ---
+
+## 🎥 Demo  
+
+👉 [Watch Demo Video](./demo-video/MediFlow-AI-PitchVideo.mp4)
+
+---
+
+### 📜 Certificates  
+
+- 📄 [Udyam Registration Certificate](./docs/Udyam%20Registration%20Certificate.pdf)  
+- 📄 [Startup Authorization Certificate](./docs/MediFlow_Authorization_Certificate.pdf)  
+- 📄 [Self Declaration Certificate](./docs/MediFlow_Self_Declaration_Certificate.pdf)
+
+---
+
 
 ## 🚀 Quick Start
 
