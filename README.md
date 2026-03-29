@@ -259,6 +259,18 @@ Deployment    → Vercel
 
 ---
 
+## 📂 Resources & Assets  
+
+👉 [Open MediFlow AI Resource Hub (Drive)](https://drive.google.com/drive/folders/13Bo1Z7la6CToCaiTiq8x6KxuYBssJfvl)
+
+Includes:
+- 📄 Certificates  
+- 📘 Documentation  
+- 🎥 Demo assets  
+- 📊 Architecture & impact files
+
+---
+
 <br/>
 
 > **By: Nitanshu Tak**
